@@ -1,0 +1,115 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ExampleFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Example",
+        "printedName": "Example",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Example",
+                "printedName": "ExampleFramework.Example",
+                "usr": "s:16ExampleFramework0A0C"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16ExampleFramework0A0C6sharedACvpZ",
+            "mangledName": "$s16ExampleFramework0A0C6sharedACvpZ",
+            "moduleName": "ExampleFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Example",
+                    "printedName": "ExampleFramework.Example",
+                    "usr": "s:16ExampleFramework0A0C"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16ExampleFramework0A0C6sharedACvgZ",
+                "mangledName": "$s16ExampleFramework0A0C6sharedACvgZ",
+                "moduleName": "ExampleFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "test",
+            "printedName": "test()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ExampleFramework0A0C4testyyF",
+            "mangledName": "$s16ExampleFramework0A0C4testyyF",
+            "moduleName": "ExampleFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16ExampleFramework0A0C",
+        "mangledName": "$s16ExampleFramework0A0C",
+        "moduleName": "ExampleFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/et0072\/repository\/Personal\/ExampleFramework\/ExampleFramework\/ExampleFramework\/Example.swift",
+      "kind": "StringLiteral",
+      "offset": 241,
+      "length": 43,
+      "value": "\"ExampleFramework \/ Example.swift \/ test()\""
+    }
+  ]
+}
